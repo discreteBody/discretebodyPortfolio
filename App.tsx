@@ -8,14 +8,14 @@ import { Experience } from './components/Experience';
 import { About } from './components/About';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
+import './index.css';
 
 function App() {
   return (
-    <div className="min-h-screen bg-zinc-950 flex flex-col text-zinc-400 font-sans selection:bg-accent-500/30 selection:text-accent-200">
+    <div className="min-h-screen bg-slate-950 flex flex-col text-slate-300 font-sans selection:bg-blue-500/30 selection:text-white">
       <Header />
       <main>
         <Hero />
-        {/* Optimized Order: Experience -> Projects -> Skills -> About -> Contact */}
         <Experience />
         <Projects />
         <Skills />
