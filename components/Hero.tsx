@@ -36,8 +36,8 @@ export const Hero: React.FC = () => {
           </h1>
           
           {/* Subheading */}
-          <p className="text-center text-base md:text-lg text-slate-400 mb-2 tracking-wide uppercase font-medium">
-            Backend Architect & Systems Engineer
+          <p className="text-center text-base md:text-lg text-slate-400 mb-2 tracking-wide font-medium">
+            Java Backend Engineer | Spring Boot & Microservices Specialist
           </p>
           
           {/* Divider */}
