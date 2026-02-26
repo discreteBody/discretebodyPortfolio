@@ -111,6 +111,7 @@ export const RESUME_DATA: ResumeData = {
     },
     {
       title: "Distributed Observability & Monitoring Suite",
+      githubUrl:"https://github.com/discreteBody/monitoringSystem",
       status: "Completed",
       icon: "📊",
       description: [
